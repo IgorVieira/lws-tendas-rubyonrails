@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LwsTendasRubyonrails</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="white" role="navigation" >
+    <div class="nav-wrapper">
+      <a id="logo-container" href="#home" class="page-scroll brand-logo"><%= image_tag "logo.png" %></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="page-scroll"><a href="#how">Quem somos</a></li>
+        <li class="page-scroll"><a href="#products">Produtos</a></li>
+        <li class="page-scroll"><a href="#cases">Cases</a></li>
+        <li class="page-scroll"><a href="#contacts">Contato</a></li>
+         <li><a href="tel:+556232783779" class="fone">(62) 3278-3779</a></li>
+      </ul>
+
+
+      <ul id="nav-mobile" class="side-nav">
+        <li class="page-scroll"><a href="#how">Quem somos</a></li>
+        <li class="page-scroll"><a href="#products">Produtos</a></li>
+        <li class="page-scroll"><a href="#cases">Cases</a></li>
+        <li class="page-scroll"><a href="#contacts">Contato</a></li>
+
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+<%= yield %>
+
+  <footer class="page-footer brown lighten-1">
+    <div class="container">
+      <a class="topo">Up</a>
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"><u class="this-about">
+            LWS Tendas
+          </u></h5>
+          <ul>
+           <li class="page-scroll"><a class="white-text" href="#how">Quem somos</a></li>
+            <li class="page-scroll"><a class="white-text" href="#products">Produtos</a></li>
+            <li class="page-scroll"><a class="white-text" href="#cases">Cases</a></li>
+            <li class="page-scroll"><a class="white-text" href="#contacts">Contato</a></li>
+          </ul>
+
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Create by <a class="white-text text-lighten-3"> Igor Vieira & Gabriel Gonçalves</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
