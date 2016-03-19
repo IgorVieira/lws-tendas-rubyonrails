@@ -364,6 +364,11 @@
    margin: .5em 0 2em 0;
  }
 
+ input[type="text"]:focus:not([readonly]) {
+   border-bottom:  1px solid #000000;
+   box-shadow: 0 1px 0 0 #000000;
+ }
+
  input[type="text"], input[type="email"]{
     width: 850px;
     border-style: #000;
