@@ -1,0 +1,335 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav{
+  height: 100px;
+}
+
+nav img{
+  margin-top: -20px;
+  width: 350px;
+  height: 80px;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  margin-top: 25px;
+  color: #444;
+  text-transform: uppercase;
+}
+
+nav ul a:hover{
+  background: none;
+}
+
+@media only screen and (max-width: 993px){
+  nav img{
+    width: 250px;
+    height: 50px;
+  }
+  nav{
+    height: 75px;
+  }
+
+}
+
+
+.brand-logo{
+  margin-left: 150px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #d84315;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .brand-logo{
+    position: center;
+    margin-left: 75px;
+  }
+
+  .button-collapse{
+    margin-left: 25px;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.right{
+  margin-right: 90px;
+}
+
+
+ @media screen and (max-width : 392px) {
+    .parallax-container .banner_lws {
+      font-size: 2em;
+    }
+
+    .parallax-container .logo_lws {
+      font-size: 1.5em;
+    }
+
+    .deep-orange{
+      height: 100px;
+    }
+
+    .logo_lws h1{
+      font-size: 25px;
+      margin-top: 30px;
+    }
+}
+
+
+.banner_lws{
+  margin-top: 100px;
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.down_container{
+  margin-top: 50px;
+}
+
+.container-about{
+  background: #F5FAFF;
+  min-height: 700px;
+}
+
+.container-product{
+  background: #7C4F3F;
+  min-height: 700px;
+}
+
+
+.container-contacts{
+  background: #F5FAFF;
+  min-height: 700px;
+}
+
+
+.container-cases{
+  background: #7A7D7F;
+  min-height: 500px;
+}
+
+.container-cases  img{
+  margin-top: 50px;
+ -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  margin-left: 20px;
+  transition: 0.5s ease;
+  height: 200px;
+  width: 200px;
+}
+.container-cases  img:hover{
+  -webkit-filter:none;
+  filter: none;
+
+}
+
+@media screen and (max-width: 802px){
+  .container-cases  img{
+    margin-left: 75px;
+  }
+
+}
+
+@media screen and (max-width: 511px){
+  .container-cases  img{
+    margin-left: 125px;
+  }
+
+}
+@media screen and (max-width: 450px){
+  .container-cases  img{
+    margin-left: 100px;
+  }
+
+}
+@media screen and (max-width: 395px){
+  .container-cases  img{
+    margin-left: 75px;
+  }
+
+}
+@media screen and (max-width: 360px){
+  .container-cases  img{
+    margin-left: 60px;
+  }
+
+}
+
+.title-harvy{
+  margin-top: 100px;
+  letter-spacing: 4px;
+   text-transform: uppercase;
+}
+
+.white-text u{
+  margin-top: 50px;
+  color: white;
+}
+
+
+.topo {
+  cursor: pointer;
+  position: fixed;
+  bottom: 3.5em;
+  right: 3.5em;
+  display: none;
+  z-index: 50;
+  background: rgba(0,0,0,0.6);
+  border-color: #fff;
+  border-radius: 2px solid;
+  color: #fff;
+  padding: 1em 2rem;
+
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width : 392px) {
+  .topo{
+    visibility: hidden;
+  }
+}
+
+
+
+
+.parallax-container{
+  min-height: 490px;
+}
+
+
+
+input[type="text"], input[type="email"], input[type="password"], textarea{
+  width:100%;
+  max-width:100%;
+  height: 3em;
+  border: 2px solid #000000;
+  padding: 1em;
+  margin: .5em 0 2em 0;
+}
+
+
+textarea{
+  min-height:15em;
+}
+
+input[type="submit"], .btn{
+  outline:none;
+  background: transparent;
+  text-align:center;
+}
+
+input[type="submit"], .btn:hover{
+
+    color:#FFFFFF;
+  }
+
+
+.slider{
+  margin-top: 80px;
+  margin-left: 50px;
+  position: relative;
+}
+
+@media screen and (max-width: 600px){
+  .slider{
+    margin-top: 80px;
+    margin-left: -3.8px;
+    position: relative;
+  }
+}
+
+
+
+nav ul li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+nav ul li:hover:after {
+  width: 100%;
+  background: #7C4F3F;
+}
+
+
+.slider .indicators .indicator-item.active{
+  background: #7C4F3F;
+}
+
+
+.down_container{
+   margin-top: 50px;
+ }
+
+.container-galpao{
+  margin-top: 200px;
+}
+
+
+
+.small_img{
+  height: 75px;
+  width: 75px;
+}

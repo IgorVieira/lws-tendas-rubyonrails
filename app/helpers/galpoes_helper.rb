@@ -1,0 +1,2 @@
+module GalpoesHelper
+end

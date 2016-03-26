@@ -1,0 +1,2 @@
+module PiramidesHelper
+end

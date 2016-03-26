@@ -1,0 +1,2 @@
+class PiramidesController < ApplicationController
+end
