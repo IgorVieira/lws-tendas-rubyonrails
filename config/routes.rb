@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
 
-   resources :galpoes
    resources :piramides
-   resources :tensionadas
+   resources :contacts, only: [:new, :create]
+   resources :sanfonadas
 
    root 'welcome#index'
 

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TensionadasControllerTest < ActionController::TestCase
+class SanfonadasControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

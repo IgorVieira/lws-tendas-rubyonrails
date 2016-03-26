@@ -1,0 +1,2 @@
+class SanfonadasController < ApplicationController
+end

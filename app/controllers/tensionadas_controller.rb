@@ -1,2 +1,0 @@
-class TensionadasController < ApplicationController
-end
