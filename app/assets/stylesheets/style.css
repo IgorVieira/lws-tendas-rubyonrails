@@ -15,7 +15,9 @@ nav img{
   width: 350px;
   height: 80px;
 }
-
+nav ul li {
+  margin-top: 15px;
+}
 
 nav ul a,
 nav .brand-logo {
