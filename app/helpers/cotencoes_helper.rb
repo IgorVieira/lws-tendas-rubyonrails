@@ -1,0 +1,2 @@
+module CotencoesHelper
+end

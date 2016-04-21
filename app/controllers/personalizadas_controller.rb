@@ -1,0 +1,2 @@
+class PersonalizadasController < ApplicationController
+end

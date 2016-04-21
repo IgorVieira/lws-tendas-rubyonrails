@@ -1,0 +1,2 @@
+module ContencoesHelper
+end

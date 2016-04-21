@@ -1,0 +1,2 @@
+class BruxasController < ApplicationController
+end

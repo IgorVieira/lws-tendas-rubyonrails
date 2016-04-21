@@ -13,7 +13,7 @@
 <body>
   <nav class="white" role="navigation" >
     <div class="nav-wrapper">
-      <a id="logo-container" href="/" class="page-scroll brand-logo"><%= image_tag "logo.png" %></a>
+      <a id="logo-container" href="/#welcome" class="page-scroll brand-logo"><%= image_tag "logo.png" %></a>
       <ul class="right hide-on-med-and-down">
         <li class="page-scroll"><a href="/#how">Quem somos</a></li>
         <li class="page-scroll"><a href="/#products">Produtos</a></li>
@@ -53,6 +53,28 @@
           </ul>
 
 
+        </div>
+        <div class="col l6 s12">
+          <div id="map"></div>
+                <script>
+            function initMap() {
+              var mapDiv = document.getElementById('map');
+              var map = new google.maps.Map(mapDiv, {
+                center: {lat: -16.7655761, lng: -49.2431809},
+                zoom: 17
+              });
+
+              var marker = new google.maps.Marker({
+                position: {lat: -16.7655761, lng: -49.2431809},
+                map: map,
+                title: 'LWS Tendas'
+              });
+ 
+            }
+           
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+              async defer></script>
         </div>
 
       </div>
