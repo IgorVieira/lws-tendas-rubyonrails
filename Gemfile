@@ -17,11 +17,11 @@ group :development, :test do
   gem 'byebug'
 end
 
-group :development do
-  gem 'web-console', '~> 2.0'
+# group :development do
+#   gem 'web-console', '~> 2.0'
 
-  gem 'spring'
-end
+#   gem 'spring'
+# end
 
 group :production do
 	gem 'pg'
