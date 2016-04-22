@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= materialize
 //= init
+//= materialize
 //= scroll
 //= jquery.galleriffic
 //= jquery.opacityrollover

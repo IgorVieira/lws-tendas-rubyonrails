@@ -1,0 +1,2 @@
+class SobMedidasController < ApplicationController
+end

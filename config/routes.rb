@@ -7,7 +7,7 @@ Rails.application.routes.draw do
    resources :contencoes
    resources :galpoes
    resources :personalizadas
-   resources :bruxas
+   resources :sob_medidas
 
    root 'welcome#index'
 
